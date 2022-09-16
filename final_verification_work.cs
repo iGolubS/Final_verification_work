@@ -16,3 +16,5 @@ for (int j = 0; j < stringArray.Length; j++)
     }
     letter_counter = 0;
 }
+Console.Write($"[{String.Join(" ", stringArray)}] -> ");
+Console.Write($"[{String.Join(" ", miniArray)}]");
